@@ -19,6 +19,8 @@ public class Demo_12 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         int[] arr1 = {6,7,8,9,10};
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr1));
         swap(arr,arr1);
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(arr1));

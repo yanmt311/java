@@ -1,5 +1,12 @@
 
-//1
+/**
+ * 1、考点：
+ *     1、static，创建空对象，可以进行打印；
+ *     2、不加static，创建空对象，编译失败，产生空指针异常
+ *     3、静态不依赖对象，实例依赖对象，且不能为空
+ *         
+ * 
+ */
 
 
 class Test {
@@ -20,9 +27,9 @@ public class Demo_1 {
 
         //创建了一个空对象
         Test test=null;
-        test.hello();
+        test.hello();//有警告
 
-        Test.hello();
+        Test.hello();//正确方式
     }
 }
 
